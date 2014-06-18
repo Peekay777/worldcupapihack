@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2014 World Cup Brazil - Team Stats</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="logo">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<div class="title">
+				<h1>2014 World Cup Brazil</h1>
+				<h2>Team Stats</h2>
+			</div>
+		</header>
+		<nav>
+			<select name="nation" id="nation">
+				<option selected disabled> -- Choose a Nation -- </option>
+				<option value="Algeria">Algeria</option> 
+				<option value="Argentina">Argentina</option>
+				<option value="Australia">Australia</option>
+				<option value="Belgium">Belgium</option>
+				<option value="Bosnia-Herzegovina">Bosnia-Herzegovina</option>
+				<option value="Brazil">Brazil</option>
+				<option value="Cameroon">Cameroon</option>
+				<option value="Chile">Chile</option>
+				<option value="Colombia">Colombia</option>
+				<option value="Costa Rica">Costa Rica</option>
+				<option value="Côte d'Ivoire">Côte d'Ivoire</option>
+				<option value="Ecuador">Ecuador</option>
+				<option value="England">England</option>
+				<option value="France">France</option>
+				<option value="Germany">Germany</option>
+				<option value="Ghana">Ghana</option>
+				<option value="Greece">Greece</option>
+				<option value="Honduras">Honduras</option>
+				<option value="Iran">Iran</option>
+				<option value="Italy">Italy</option>
+				<option value="Japan">Japan</option>
+				<option value="Korea Republic">Korea Republic</option>
+				<option value="Mexico">Mexico</option>
+				<option value="Netherlands">Netherlands</option>
+				<option value="Nigeria">Nigeria</option>
+				<option value="Portugal">Portugal</option>
+				<option value="Russia">Russia</option>
+				<option value="Spain">Spain</option>
+				<option value="Switzerland">Switzerland</option>
+				<option value="United States">United States</option>
+				<option value="Uruguay">Uruguay</option>
+			</select>
+		</nav>
+		<div id="content">
+			<section>
+				<h3>England</h3>
+				<div class="team img"><img src="http://cache.images.globalsportsmedia.com/soccer/teams/150x150/774.png" alt="Team Logo"></div>
+				<div class="team info">
+					<div class="team-group">Group: <span>D</span></div>
+					<div class="team-position">Position: <span>3rd</span></div>
+					<table>
+						<thead>
+							<tr>
+								<td>P</td>
+								<td>W</td>
+								<td>L</td>
+								<td>D</td>
+								<td>GF</td>
+								<td>GA</td>
+								<td>GD</td>
+								<td>Pts</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>1</td>
+								<td>2</td>
+								<td>-1</td>
+								<td>0</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<section>
+				<h4>Most <span>Goal</span>s - <span>D. Sturridge</span> (<span>1</span> <span>Goals</span>)</h4>
+				<div>
+					<div class="player img"><img src="http://cache.images.globalsportsmedia.com/soccer/players/150x150/5206.png" alt="Face"></div>
+					<div class="player info">
+						<div><span>Daniel</span> <span>Sturridge</span></div>
+						<div>Age: <span>24</span></div>
+						<div>Position: <span>Attacker</span></div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h4>Most <span>Assist</span>s - <span>W. Rooney</span> (<span>1</span> <span>Assist</span>)</h4>
+				<div>
+					<div class="player img"><img src="http://cache.images.globalsportsmedia.com/soccer/players/150x150/193.png" alt="Face"></div>
+					<div class="player info">
+						<div><span>Wayne</span> <span>Rooney</span></div>
+						<div>Age: <span>28</span></div>
+						<div>Position: <span>Attacker</span></div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h4>Most <span>Yellow</span>s - <span>R. Sterling</span> (<span>1</span> <span>Yellow</span>)</h4>
+				<div>
+					<div class="player img"><img src="http://cache.images.globalsportsmedia.com/soccer/players/150x150/160414.png" alt="Face"></div>
+					<div class="player info">
+						<div><span>Raheem Shaquille</span> <span>Sterling</span></div>
+						<div>Age: <span>19</span></div>
+						<div>Position: <span>Attacker</span></div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h4>Most <span class="player-stat-type">Red</span>s - <span class="player-nickname"></span> (<span class="player-stat"></span> <span class="player-stat-type"></span>)</h4>
+				<div>
+					<div class="player img"><img src="images/logo.png" alt="Face"></div>
+					<div class="player info">
+						<div><span class="player-firstname"></span> <span class="player-surname"></span></div>
+						<div>Age: <span class="player-age"></span></div>
+						<div>Position: <span class="player-position"></span></div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="templates hidden">
+		<dl class="result question">
+			<dt>Question</dt>
+				<dd class="question-text"><a href="" target="_blank"></a></dd>
+			<dt>Asked</dt>
+				<dd class="asked-date"></dd>
+			<dt>Viewed</dt>
+				<dd class="viewed"></dd>
+			<dt>Asker</dt>
+				<dd class="asker"></dd>
+		</dl>
+		<section class="stats player">
+			<h4>Most <span class="player-stat-type">Red</span>s - <span class="player-nickname"></span> (<span class="player-stat"></span> <span class="player-stat-type"></span>)</h4>
+			<div>
+				<div class="player img"><img src="images/logo.png" alt="Face"></div>
+				<div class="player info">
+					<div><span class="player-firstname"></span> <span class="player-surname"></span></div>
+					<div>Age: <span class="player-age"></span></div>
+					<div>Position: <span class="player-position"></span></div>
+				</div>
+			</div>
+		</section>
+		<section class="stats team">
+				<h3>England</h3>
+				<div class="team img"><img src="images/logo.png" alt="Team Logo"></div>
+				<div class="team info">
+					<div class="team-group">Group: <span class="team-group-stat">D</span></div>
+					<div class="team-position">Position: <span class="team-position-stat">3rd</span></div>
+					<table>
+						<thead>
+							<tr>
+								<td>P</td>
+								<td>W</td>
+								<td>L</td>
+								<td>D</td>
+								<td>GF</td>
+								<td>GA</td>
+								<td>GD</td>
+								<td>Pts</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="team-table-played">1</td>
+								<td class="team-table-won">0</td>
+								<td class="team-table-loss">1</td>
+								<td class="team-table-draw">0</td>
+								<td class="team-table-for">1</td>
+								<td class="team-table-against">2</td>
+								<td class="team-table-diff">-1</td>
+								<td class="team-table-pts">0</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		<div class="error">
+			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
+		</div>
+	</div>
+</body>
+</html>
